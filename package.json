@@ -1,0 +1,22 @@
+{
+  "name": "broadcast-local-host-electron-koa-proof-of-concept",
+  "version": "0.0.1",
+  "description": "",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com:magnusdahlstrand/broadcast-local-host-electron-koa-proof-of-concept.git"
+  },
+  "scripts": {
+    "start": "electron .",
+    "debug": "ELECTRON_ENV=dev electron ."
+  },
+  "author": "Magnus Dahlstrand <magnus@mdahlstrand.com> (http://mdahlstrand.com)",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^1.6.11",
+    "framework": "git://github.com/magnusdahlstrand/framework.git#v0.1.0",
+    "koa": "^2.3.0",
+    "multicast-dns": "^6.1.1"
+  }
+}
